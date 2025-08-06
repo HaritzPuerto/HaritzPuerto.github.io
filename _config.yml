@@ -5,3 +5,7 @@ includes:    ./_includes
 collections:
   projects:
     output: true
+
+title: "Donggeon Kim"
+description: "Robotics and AI"
+url: "https://donggeonk.github.io"
