@@ -3,6 +3,7 @@ papers:
     authors: <b>Haritz Puerto</b>, Martin Gubri, Tommaso Green, Seong Joon Oh, Sangdoo Yun
     venue: NeurIPS D&B 2025
     paper_pdf: https://arxiv.org/abs/2506.11097
+    poster: /assets/publications/2025_cseo/poster.pdf
     code: https://github.com/parameterlab/c-seo-bench
     data: https://huggingface.co/datasets/parameterlab/c-seo-bench
     selected: y
