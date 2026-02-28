@@ -6,6 +6,9 @@ h4 {
   margin-top: 60px;
   margin-bottom: 60px; 
   text-align: left; }
+.profile-pic {
+  border-radius: 50%;
+  object-fit: cover; }
 .main-description h1 {
   margin-bottom: 0px; }
 .main-description p {
