@@ -2,6 +2,7 @@ papers:
   - title: "Controllable Reasoning Models are Private Thinkers"
     authors: <b>Haritz Puerto</b>, Haonan Li, Xudong Han, Timothy Baldwin, Iryna Gurevych
     venue: arXiv preprint 2026
+    paper_pdf: https://arxiv.org/abs/2602.24210
     code: https://github.com/UKPLab/arxiv2026-controllable-reasoning-models
     data: https://huggingface.co/collections/haritzpuerto/controllable-reasoning-models-datasets
     selected: y
