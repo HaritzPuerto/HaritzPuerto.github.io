@@ -1,4 +1,13 @@
 papers:
+  - title: "Models That Know How Evaluations Are Designed Score Safer"
+    authors: Katharina Deckenbach*, <b>Haritz Puerto</b>*, Jonas Geiping, Sahar Abdelnabi
+    venue: arXiv preprint 2026
+    paper_pdf: https://arxiv.org/abs/2605.28591
+    code: https://github.com/compass-group-tue/arxiv2026_evaluation_meta_knowledge
+    data: https://huggingface.co/collections/compass-group-tue/evaluation-meta-knowledge
+    website: https://compass-group-tue.github.io/arxiv2026_evaluation_meta_knowledge/
+    selected: y
+
   - title: "Controllable Reasoning Models are Private Thinkers"
     authors: <b>Haritz Puerto</b>, Haonan Li, Xudong Han, Timothy Baldwin, Iryna Gurevych
     venue: arXiv preprint 2026
