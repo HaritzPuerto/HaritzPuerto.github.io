@@ -1,0 +1,123 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</div>
+{% endif %}
+
+<p><sup>*</sup> indicates equal contribution.</p>
+
+<style>
+  .pub-filters { margin: 1em 0 1.5em; }
+  .pub-filter-btn {
+    display: inline-block;
+    margin: 0 0.4em 0.5em 0;
+    padding: 0.3em 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background: #f7f7f7;
+    color: #333;
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+  }
+  .pub-filter-btn:hover { border-color: #888; }
+  .pub-filter-btn.active { background: #52adc8; border-color: #52adc8; color: #fff; }
+  .pub-entry { margin-bottom: 1.5em; }
+  .pub-entry .pub-title { font-weight: bold; margin-bottom: 0.1em; }
+  .pub-entry .pub-authors { margin: 0.1em 0; }
+  .pub-entry .pub-venue { margin: 0.1em 0; }
+  .pub-categories { margin: 0.3em 0; }
+  .pub-category-badge {
+    display: inline-block;
+    margin: 0 0.3em 0.3em 0;
+    padding: 0.15em 0.6em;
+    border-radius: 1em;
+    background: #eef4f6;
+    color: #2a6f86;
+    font-size: 0.72em;
+    border: 1px solid #cfe2e9;
+  }
+  .pub-links { margin-top: 0.3em; }
+  .pub-links a {
+    display: inline-block;
+    margin: 0 0.4em 0.3em 0;
+    padding: 0.15em 0.6em;
+    border: 1px solid #52adc8;
+    border-radius: 0.3em;
+    font-size: 0.75em;
+    color: #52adc8;
+    text-decoration: none;
+  }
+  .pub-links a:hover { background: #52adc8; color: #fff; }
+</style>
+
+<div class="pub-filters" id="pub-filters">
+  <button type="button" class="pub-filter-btn active" data-category="all">All</button>
+  {% for cat in site.paper_categories %}
+    <button type="button" class="pub-filter-btn" data-category="{{ cat | slugify }}">{{ cat }}</button>
+  {% endfor %}
+</div>
+
+<div id="pub-list">
+{% for post in site.publications reversed %}
+  {% capture cat_slugs %}{% for c in post.categories %}{{ c | slugify }} {% endfor %}{% endcapture %}
+  <div class="pub-entry" data-categories="{{ cat_slugs | strip }}">
+    <p class="pub-title">
+      {% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
+    </p>
+    <p class="pub-authors">{{ post.authors }}</p>
+    <p class="pub-venue"><i>{{ post.venue }}</i></p>
+    {% if post.categories.size > 0 %}
+    <div class="pub-categories">
+      {% for c in post.categories %}<span class="pub-category-badge">{{ c }}</span>{% endfor %}
+    </div>
+    {% endif %}
+    <div class="pub-links">
+      {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank">Paper</a>{% endif %}
+      {% if post.slides %}<a href="{{ post.slides | prepend: site.baseurl }}" target="_blank">Slides</a>{% endif %}
+      {% if post.poster %}<a href="{{ post.poster | prepend: site.baseurl }}" target="_blank">Poster</a>{% endif %}
+      {% if post.video %}<a href="{{ post.video }}" target="_blank">Video</a>{% endif %}
+      {% if post.website %}<a href="{{ post.website }}" target="_blank">Website</a>{% endif %}
+      {% if post.code %}<a href="{{ post.code }}" target="_blank">Code</a>{% endif %}
+      {% if post.data %}<a href="{{ post.data }}" target="_blank">Data</a>{% endif %}
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var filtersEl = document.getElementById('pub-filters');
+    var pubList   = document.getElementById('pub-list');
+    if (!filtersEl || !pubList) return;
+
+    function applyFilter(selected) {
+      filtersEl.querySelectorAll('.pub-filter-btn').forEach(function (b) {
+        b.classList.toggle('active', b.getAttribute('data-category') === selected);
+      });
+      pubList.querySelectorAll('.pub-entry').forEach(function (entry) {
+        var cats = (entry.getAttribute('data-categories') || '').trim().split(/\s+/);
+        entry.style.display = (selected === 'all' || cats.indexOf(selected) !== -1) ? '' : 'none';
+      });
+    }
+
+    filtersEl.addEventListener('click', function (e) {
+      var btn = e.target.closest('.pub-filter-btn');
+      if (!btn) return;
+      e.preventDefault();
+      var selected = btn.getAttribute('data-category');
+      history.replaceState(null, '', selected === 'all' ? window.location.pathname : '#' + selected);
+      applyFilter(selected);
+    });
+
+    var hash = window.location.hash.replace('#', '');
+    applyFilter(hash || 'all');
+  });
+</script>
