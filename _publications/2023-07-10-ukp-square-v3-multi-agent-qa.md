@@ -10,5 +10,4 @@ code: "https://github.com/UKP-SQuARE/square-core"
 website: "https://square.ukp-lab.de"
 categories:
   - "Question Answering"
-  - "Agents"
 ---

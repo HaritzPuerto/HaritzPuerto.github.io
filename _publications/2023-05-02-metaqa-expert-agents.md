@@ -10,5 +10,4 @@ code: "https://github.com/UKPLab/MetaQA"
 video: "https://doi.org/10.48448/q7ak-a589"
 categories:
   - "Question Answering"
-  - "Agents"
 ---

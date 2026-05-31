@@ -86,7 +86,6 @@ author:
 # Each publication lists its categories (one or more) in its front matter.
 paper_categories:
   - "Reasoning"
-  - "Agents"
   - "Trustworthy AI"
   - "AI Safety"
   - "AI Evaluations"
