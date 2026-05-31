@@ -4,7 +4,8 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4000/publications/)",
       "Bash(curl -s http://localhost:4000/publications/)",
       "mcp__Claude_Preview__preview_start",
-      "mcp__Claude_in_Chrome__tabs_context_mcp"
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(sips -g pixelWidth -g pixelHeight /Users/haritz/Projects/HaritzPuerto.github.io/images/profile.jpg)"
     ]
   }
 }
