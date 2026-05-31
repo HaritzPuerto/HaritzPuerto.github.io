@@ -10,5 +10,4 @@ website: "https://square.ukp-lab.de"
 categories:
   - "Question Answering"
   - "Trustworthy AI"
-  - "Agents"
 ---
