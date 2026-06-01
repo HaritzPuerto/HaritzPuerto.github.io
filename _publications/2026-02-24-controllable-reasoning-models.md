@@ -1,5 +1,5 @@
 ---
-title: "Controllable Reasoning Models are Private Thinkers"
+title: "From Leaky Thoughts to Private Reasoning: Controlling What LRMs Say to Themselves"
 collection: publications
 selected: "n"
 date: 2026-02-24
