@@ -11,5 +11,4 @@ data: "https://huggingface.co/collections/compass-group-tue/evaluation-meta-know
 website: "https://compass-group-tue.github.io/arxiv2026_evaluation_meta_knowledge/"
 categories:
   - "AI Evaluations"
-  - "AI Safety"
 ---
