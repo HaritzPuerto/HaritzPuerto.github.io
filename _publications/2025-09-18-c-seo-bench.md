@@ -5,7 +5,7 @@ selected: "y"
 date: 2025-09-18
 venue: "NeurIPS D&B 2025"
 authors: "<b>Haritz Puerto</b>, Martin Gubri, Tommaso Green, Seong Joon Oh, Sangdoo Yun"
-paperurl: "https://arxiv.org/abs/2506.11097"
+paperurl: "https://neurips.cc/virtual/2025/loc/san-diego/poster/121465"
 poster: "/assets/publications/2025_cseo/poster.pdf"
 slides: "/assets/publications/2025_cseo/slides.pdf"
 code: "https://github.com/parameterlab/c-seo-bench"
