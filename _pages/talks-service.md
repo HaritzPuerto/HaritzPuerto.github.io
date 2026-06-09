@@ -127,11 +127,13 @@ author_profile: true
   }
 </style>
 
+<p style="font-size: 0.85em; color: #666; margin-bottom: 0.3em;">🏆 = Top Reviewer Award</p>
+
 <table class="review-table">
   <tr>
     <td><span class="review-year">2026</span></td>
     <td class="review-venues">
-      <span class="review-venue-tag">ICML Workshop AI4GOOD</span>
+      <span class="review-venue-tag">ICML Workshop AI4GOOD 🏆</span>
       <span class="review-venue-tag">NeurIPS</span>
       <span class="review-venue-tag">ACL ARR (Jan, Mar, May)</span>
     </td>
