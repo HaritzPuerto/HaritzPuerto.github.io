@@ -1,0 +1,69 @@
+---
+layout: archive
+title: "Blog"
+permalink: /blog/
+author_profile: true
+---
+
+{% include base_path %}
+
+<style>
+  .blog-list { margin-top: 0.5em; }
+  .blog-year {
+    display: inline-block;
+    margin: 1.2em 0 0.4em;
+    font-weight: bold;
+    color: #fff;
+    background: #52adc8;
+    border-radius: 0.3em;
+    padding: 0.15em 0.6em;
+    font-size: 0.9em;
+  }
+  .blog-item { padding: 0.6em 0; border-bottom: 1px solid #eee; }
+  .blog-item:last-child { border-bottom: none; }
+  .blog-title { font-weight: bold; margin-bottom: 0.1em; font-size: 1.05em; }
+  .blog-title a { color: inherit; text-decoration: none; border-bottom: 1px solid #ccc; }
+  .blog-title a:hover { border-bottom-color: #52adc8; color: #52adc8; }
+  .blog-meta { opacity: 0.75; font-size: 0.85em; margin-bottom: 0.3em; }
+  .blog-excerpt { opacity: 0.9; font-size: 0.95em; }
+  .blog-tag {
+    display: inline-block;
+    margin-right: 0.3em;
+    padding: 0.05em 0.45em;
+    background: #eef4f6;
+    color: #2a6f86;
+    border: 1px solid #cfe2e9;
+    border-radius: 0.3em;
+    font-size: 0.72em;
+  }
+</style>
+
+<div class="blog-list">
+  {% if site.posts.size == 0 %}
+    <p>No posts yet — check back soon.</p>
+  {% endif %}
+
+  {% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in postsByYear %}
+    <div class="blog-year">{{ year.name }}</div>
+    {% for post in year.items %}
+      <div class="blog-item">
+        <div class="blog-title">
+          <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+        </div>
+        <div class="blog-meta">
+          {{ post.date | date: "%B %-d, %Y" }}
+          {% if post.read_time %}&nbsp;·&nbsp;{% include read-time.html %}{% endif %}
+        </div>
+        {% if post.excerpt %}
+          <div class="blog-excerpt">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+        {% endif %}
+        {% if post.tags.size > 0 %}
+          <div style="margin-top:0.3em;">
+            {% for tag in post.tags %}<span class="blog-tag">{{ tag }}</span>{% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  {% endfor %}
+</div>

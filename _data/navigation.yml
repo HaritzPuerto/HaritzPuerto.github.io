@@ -13,5 +13,8 @@ main:
   - title: "Talks & Service"
     url: /talks-service/
 
+  - title: "Blog"
+    url: /blog/
+
   - title: "CV"
     url: /cv/
