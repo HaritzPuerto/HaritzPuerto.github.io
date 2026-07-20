@@ -133,7 +133,7 @@ author_profile: true
   <tr>
     <td><span class="review-year">2026</span></td>
     <td class="review-venues">
-      <span class="review-venue-tag">ICML Workshop AI4GOOD 🏆</span>
+      <span class="review-venue-tag">ICML Workshop AI4GOOD 🏆 (Top 1.6%)</span>
       <span class="review-venue-tag">NeurIPS</span>
       <span class="review-venue-tag">ACL ARR (Jan, Mar, May)</span>
     </td>
