@@ -100,6 +100,10 @@ author_profile: true
 
 ## Academic Service
 
+**Workshop Organizer**
+
+- Co-organizer, [PALM Workshop at NeurIPS 2026](https://palm-neurips-2026.github.io) — Personalized, Aligned, Long-Term Memory for AI Systems
+
 **Reviewer**
 
 <style>

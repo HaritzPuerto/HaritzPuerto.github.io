@@ -40,6 +40,10 @@ News
 
 <table class="news-table">
   <tr>
+    <td><span class="news-date">Jul 2026</span></td>
+    <td class="news-text"><i class="fas fa-people-group news-icon" aria-hidden="true"></i>Co-organizing the <a href="https://palm-neurips-2026.github.io">PALM Workshop at NeurIPS 2026</a>.</td>
+  </tr>
+  <tr>
     <td><span class="news-date">Jun 2026</span></td>
     <td class="news-text"><i class="fas fa-trophy news-icon" aria-hidden="true"></i>Received the Top Reviewer Award at the ICML 2026 Workshop on AI for Good (AI4GOOD).</td>
   </tr>
