@@ -15,7 +15,7 @@ Before my Ph.D., I worked at the Coleridge Initiative, where we organized the Ka
 
 Education
 ======
-* Ph.D. in Computer Science, TU Darmstadt, 2026
+* Ph.D. in Computer Science, TU Darmstadt, 2026 (expected)
 * M.S. in Computer Science, KAIST, 2021
 * B.Sc. in Computer Science & Engineering (*Summa Cum Laude*), University of Malaga, 2017
 
