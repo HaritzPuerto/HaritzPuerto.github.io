@@ -139,7 +139,8 @@ author_profile: true
     <td class="review-venues">
       <span class="review-venue-tag">ICML Workshop AI4GOOD 🏆 (Top 1.6%)</span>
       <span class="review-venue-tag">NeurIPS</span>
-      <span class="review-venue-tag"><a href="https://aisec.cc">AISec Workshop at ACM CCS</a></span>
+      <span class="review-venue-tag"><a href="https://aisec.cc">ACM CCS Workshop AISec</a></span>
+      <span class="review-venue-tag"><a href="https://flmsec.github.io">NeurIPS Workshop FLMSec</a></span>
       <span class="review-venue-tag">ACL ARR (Jan, Mar, May)</span>
     </td>
   </tr>
