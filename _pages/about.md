@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral researcher at the [ELLIS Institute Tübingen](https://institute-tue.ellis.eu/compass) (co-affiliated with the [Max Planck Institute for Intelligent Systems](https://is.mpg.de/compass)). I am part of the Cooperative Machine Intelligence for People-Aligned Safe Systems (COMPASS) group, led by [Sahar Abdelnabi](https://s-abdelnabi.github.io/). My research focuses on enhancing [trustworthy](/publications/#trustworthy-ai), [safe](/publications/#ai-safety), and effective [reasoning](/publications/#reasoning) in language models and agentic systems.
+I am a AI researcher scientist at the [ELLIS Institute Tübingen](https://institute-tue.ellis.eu/compass) (co-affiliated with the [Max Planck Institute for Intelligent Systems](https://is.mpg.de/compass)). I am part of the Cooperative Machine Intelligence for People-Aligned Safe Systems (COMPASS) group, led by [Sahar Abdelnabi](https://s-abdelnabi.github.io/). My research focuses on enhancing [trustworthy](/publications/#trustworthy-ai), [safe](/publications/#ai-safety), and effective [reasoning](/publications/#reasoning) in language models and agentic systems.
 
 I did my Ph.D. in Machine Learning & Natural Language Processing at [UKP Lab](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/index.en.jsp) in [TU Darmstadt](https://www.tu-darmstadt.de/index.en.jsp), supervised by [Prof. Iryna Gurevych](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp). During my Ph.D., I interned at Parameter Lab, where we worked with [Naver AI](https://clova.ai/en/ai-research) on trustworthy AI.
 
