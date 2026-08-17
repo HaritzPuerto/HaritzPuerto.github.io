@@ -10,6 +10,7 @@ poster: "/assets/publications/2026_evaluation_meta_knowledge/poster.pdf"
 code: "https://github.com/compass-group-tue/arxiv2026_evaluation_meta_knowledge"
 data: "https://huggingface.co/collections/compass-group-tue/evaluation-meta-knowledge"
 website: "https://compass-group-tue.github.io/arxiv2026_evaluation_meta_knowledge/"
+thread: "https://x.com/KatDeckenbach/status/2066520185847132425"
 categories:
   - "AI Evaluations"
 ---

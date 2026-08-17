@@ -127,6 +127,7 @@ Selected Publications
     {% if pub.website %}<a href="{{ pub.website }}" target="_blank">Website</a>{% endif %}
     {% if pub.code %}<a href="{{ pub.code }}" target="_blank">Code</a>{% endif %}
     {% if pub.data %}<a href="{{ pub.data }}" target="_blank">Data</a>{% endif %}
+    {% if pub.thread %}<a href="{{ pub.thread }}" target="_blank">Thread</a>{% endif %}
   </div>
 </div>
 {% endfor %}
