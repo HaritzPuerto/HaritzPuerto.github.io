@@ -40,6 +40,10 @@ News
 
 <table class="news-table">
   <tr>
+    <td><span class="news-date">Aug 2026</span></td>
+    <td class="news-text"><i class="fas fa-file-circle-check news-icon" aria-hidden="true"></i><a href="https://arxiv.org/abs/2602.24210">From Leaky Thoughts to Private Reasoning: Controlling What LRMs Say to Themselves</a> accepted at EMNLP 2026 Main (acceptance rate: 15.4%).</td>
+  </tr>
+  <tr>
     <td><span class="news-date">Jul 2026</span></td>
     <td class="news-text"><i class="fas fa-people-group news-icon" aria-hidden="true"></i>Co-organizing the <a href="https://palm-neurips-2026.github.io">PALM Workshop at NeurIPS 2026</a>.</td>
   </tr>
