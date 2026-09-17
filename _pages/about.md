@@ -15,7 +15,7 @@ Before my Ph.D., I worked at the Coleridge Initiative, where we organized the Ka
 
 Education
 ======
-* Ph.D. in Computer Science, TU Darmstadt, 2026 (expected)
+* Ph.D. in Computer Science, TU Darmstadt, 2026
 * M.S. in Computer Science, KAIST, 2021
 * B.Sc. in Computer Science & Engineering (*Summa Cum Laude*), University of Malaga, 2017
 
@@ -39,6 +39,10 @@ News
 </style>
 
 <table class="news-table">
+  <tr>
+    <td><span class="news-date">Sep 2026</span></td>
+    <td class="news-text"><i class="fas fa-graduation-cap news-icon" aria-hidden="true"></i>Successfully defended my Ph.D. thesis at TU Darmstadt, graduating with distinction (<em>summa cum laude</em>).</td>
+  </tr>
   <tr>
     <td><span class="news-date">Aug 2026</span></td>
     <td class="news-text"><i class="fas fa-file-circle-check news-icon" aria-hidden="true"></i><a href="https://arxiv.org/abs/2602.24210">From Leaky Thoughts to Private Reasoning: Controlling What LRMs Say to Themselves</a> accepted at EMNLP 2026 Main (acceptance rate: 15.4%).</td>
