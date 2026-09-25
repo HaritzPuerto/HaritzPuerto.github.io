@@ -3,7 +3,7 @@ title: "Models That Know How Evaluations Are Designed Score Safer"
 collection: publications
 selected: "y"
 date: 2026-05-28
-venue: "arXiv preprint 2026"
+venue: "NeurIPS E&D 2026"
 authors: "Katharina Deckenbach*, <b>Haritz Puerto</b>*, Jonas Geiping, Sahar Abdelnabi"
 paperurl: "https://arxiv.org/abs/2605.28591"
 poster: "/assets/publications/2026_evaluation_meta_knowledge/poster.pdf"

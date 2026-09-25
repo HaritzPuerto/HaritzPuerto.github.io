@@ -41,6 +41,10 @@ News
 <table class="news-table">
   <tr>
     <td><span class="news-date">Sep 2026</span></td>
+    <td class="news-text"><i class="fas fa-file-circle-check news-icon" aria-hidden="true"></i><a href="https://arxiv.org/abs/2605.28591">Models That Know How Evaluations Are Designed Score Safer</a> accepted at NeurIPS 2026 Evaluations &amp; Datasets Track as a poster.</td>
+  </tr>
+  <tr>
+    <td><span class="news-date">Sep 2026</span></td>
     <td class="news-text"><i class="fas fa-graduation-cap news-icon" aria-hidden="true"></i>Successfully defended my Ph.D. thesis at TU Darmstadt, graduating with distinction (<em>summa cum laude</em>).</td>
   </tr>
   <tr>
