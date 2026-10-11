@@ -40,6 +40,10 @@ News
 
 <table class="news-table">
   <tr>
+    <td><span class="news-date">Oct 2026</span></td>
+    <td class="news-text"><i class="fas fa-file-lines news-icon" aria-hidden="true"></i>New preprint: <a href="https://arxiv.org/abs/2610.08775">Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?</a></td>
+  </tr>
+  <tr>
     <td><span class="news-date">Sep 2026</span></td>
     <td class="news-text"><i class="fas fa-file-circle-check news-icon" aria-hidden="true"></i><a href="https://arxiv.org/abs/2605.28591">Models That Know How Evaluations Are Designed Score Safer</a> accepted at NeurIPS 2026 Evaluations &amp; Datasets Track as a poster.</td>
   </tr>
@@ -70,18 +74,6 @@ News
   <tr>
     <td><span class="news-date">Feb 2026</span></td>
     <td class="news-text"><i class="fas fa-file-lines news-icon" aria-hidden="true"></i>New preprint: <a href="https://arxiv.org/abs/2602.24210">From Leaky Thoughts to Private Reasoning: Controlling What LRMs Say to Themselves</a>.</td>
-  </tr>
-  <tr>
-    <td><span class="news-date">Dec 2025</span></td>
-    <td class="news-text"><i class="fas fa-person-chalkboard news-icon" aria-hidden="true"></i><a href="https://arxiv.org/abs/2506.11097">C-SEO Bench</a> presented at NeurIPS 2025 Datasets &amp; Benchmarks.</td>
-  </tr>
-  <tr>
-    <td><span class="news-date">Nov 2025</span></td>
-    <td class="news-text"><i class="fas fa-person-chalkboard news-icon" aria-hidden="true"></i><a href="https://arxiv.org/abs/2506.15674">Leaky Thoughts</a> presented at EMNLP 2025.</td>
-  </tr>
-  <tr>
-    <td><span class="news-date">Jul 2025</span></td>
-    <td class="news-text"><i class="fas fa-person-chalkboard news-icon" aria-hidden="true"></i><a href="https://aclanthology.org/2025.acl-long.191/">Fine-Tuning on Diverse Reasoning Chains</a> presented at ACL 2025.</td>
   </tr>
 </table>
 
