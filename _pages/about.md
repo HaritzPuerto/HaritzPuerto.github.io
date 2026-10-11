@@ -41,7 +41,7 @@ News
 <table class="news-table">
   <tr>
     <td><span class="news-date">Oct 2026</span></td>
-    <td class="news-text"><i class="fas fa-file-lines news-icon" aria-hidden="true"></i>New preprint: <a href="https://arxiv.org/abs/2610.08775">Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?</a></td>
+    <td class="news-text"><i class="fas fa-file-lines news-icon" aria-hidden="true"></i>New preprints: <a href="https://arxiv.org/abs/2610.08775">Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?</a> and <a href="https://arxiv.org/abs/2610.08098">Surviving the Router: Optimizing Skill Injections for Retrieval and Execution</a>.</td>
   </tr>
   <tr>
     <td><span class="news-date">Sep 2026</span></td>
