@@ -6,6 +6,7 @@ date: 2026-10-06
 venue: "arXiv preprint 2026"
 authors: "Ankit Sonthalia, <b>Haritz Puerto</b>, Alexander Rubinstein, Martin Gubri, Seong Joon Oh"
 paperurl: "https://arxiv.org/abs/2610.08775"
+website: "https://bottled-agents.com"
 categories:
   - "AI Evaluations"
 ---
