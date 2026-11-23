@@ -104,6 +104,12 @@ author_profile: true
 
 - Co-organizer, [PALM Workshop at NeurIPS 2026](https://palm-neurips-2026.github.io) — Personalized, Aligned, Long-Term Memory for AI Systems
 
+**PhD Admission Committee (pre-screening) — 2027 admissions**
+
+- [ELLIS PhD Program](https://ellis.eu/phd-postdoc)
+- [Max Planck ETH Center for Learning Systems (CLS)](https://cls-school.org)
+- [International Max Planck Research School for Intelligent Systems (IMPRS-IS)](https://imprs.is.mpg.de)
+
 **Reviewer**
 
 <style>
