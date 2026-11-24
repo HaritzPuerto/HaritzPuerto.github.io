@@ -107,7 +107,7 @@ author_profile: true
 **PhD Admission Committee (pre-screening) — 2027 admissions**
 
 - [ELLIS PhD Program](https://ellis.eu/phd-postdoc)
-- [Max Planck ETH Center for Learning Systems (CLS)](https://cls-school.org)
+- [Max Planck ETH Center for Learning Systems (CLS)](https://learning-systems.org)
 - [International Max Planck Research School for Intelligent Systems (IMPRS-IS)](https://imprs.is.mpg.de)
 
 **Reviewer**
